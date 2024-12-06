@@ -1,2 +1,8 @@
 # Log-Analysis-Script-
-This Python script analyzes sample.log to count requests per IP, identify the most accessed endpoint, and detect suspicious activity by flagging IPs with excessive failed login attempts (status 401). Results are displayed in the terminal and saved to a CSV file, aiding in server monitoring and security analysis.
+This Python script analyzes a web server log file (sample.log) to extract key insights:
+
+Requests per IP: Counts and displays the number of requests made by each IP address, sorted by frequency.
+Most Accessed Endpoint: Identifies the most frequently accessed resource (e.g., /home) and its count.
+Suspicious Activity Detection: Flags IPs with failed login attempts (e.g., status 401) exceeding a configurable threshold, helping identify potential brute force attacks.
+Output: Results are displayed in the terminal and saved in a structured CSV file.
+This script is useful for log analysis, usage patterns, and basic security monitoring.
